@@ -1,0 +1,19 @@
+#chessBoard div {
+    display:inline-block;
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    color:grey;
+    text-transform: uppercase;
+    border: 0.1px solid black;
+}
+
+#chessBoard div:nth-child(odd) div:nth-child(even),
+#chessBoard div:nth-child(even) div:nth-child(odd){
+    background-color: black;
+}
+#chessBoard div:nth-child(odd) div:nth-child(odd),
+#chessBoard div:nth-child(even) div:nth-child(even){
+    background-color: white;
+}
+

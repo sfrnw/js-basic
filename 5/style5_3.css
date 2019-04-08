@@ -1,0 +1,7 @@
+#ourCatalog div {
+    display:block;
+    width: 200px;
+    height: 100px;
+    margin: 0;
+    border: 0.1px solid black;
+}
